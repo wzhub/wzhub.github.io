@@ -1,9 +1,7 @@
 `Apr11 66.8kg`<br>
 `Apr12 67.0kg`
 
-### Schedule
-- Started from April 1st, aiming to achieve target before May 10th
-- [Progress tracker](https://www.icloud.com/sharedalbum/#B0DGfnH8tIp8Ug4)
+<i>Started from April 1st, aiming to achieve target before May 10th</i>
 
 ### Training
 Legs:
