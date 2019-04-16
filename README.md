@@ -1,5 +1,4 @@
-`Apr11 66.8kg`
-
+`Apr11 66.8kg`<br>
 `Apr12 67.0kg`
 
 ### Schedule
