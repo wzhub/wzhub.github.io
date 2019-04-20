@@ -1,9 +1,11 @@
 # Increase body weight to 70 kg
 
-`Apr11 66.8kg`<br>
-`Apr12 67.0kg`<br>
-`Apr16 67.9kg`<br>
-`Apr20 68.3kg`<br>
+`Apr11 66.8kg body fat 20.6%`<br>
+`Apr12 67.0kg body fat 20.4%`<br>
+`Apr16 67.9kk body fat 20.5%`<br>
+`Apr20 68.1kg body fat 19.7%`<br>
+
+
 
 <i>Started from April 1st, aiming to achieve target before May 10th</i>
 
