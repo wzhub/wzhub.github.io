@@ -27,6 +27,9 @@ Back:
 - Straight Arm Pull-down: 16.25kg
 - Seated Cable Row: 32kg
 
+Biceps:
+- Elbow Flexion: 40 pound bar
+
 ### Nutrition
 - carbohydrate:35%
 - protein: 40%
