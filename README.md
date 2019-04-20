@@ -1,6 +1,7 @@
 `Apr11 66.8kg`<br>
 `Apr12 67.0kg`<br>
 `Apr16 67.9kg`<br>
+`Apr20 68.3kg`<br>
 
 <i>Started from April 1st, aiming to achieve target before May 10th</i>
 
