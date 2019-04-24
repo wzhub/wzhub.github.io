@@ -11,13 +11,13 @@
 
 ### Training
 Legs:
-- Deadlift (bar): one 25 pound plate at each side
-- Squats (bar): one 25 pound plate at each side
+- Deadlift (bar): two 25 pound plates
+- Squats (bar): two 25 pound plates
 - Leg curl machine: 68kg for Quadriceps
 
 Shoulders:
-- Dumbbell shoulder press: 40 pound dumbbell at each side
-- Bent over dumbbell Rear delt raise: 20 pound dumbbell at each side
+- Dumbbell shoulder press: two 40 pound dumbbells
+- Bent over dumbbell Rear delt raise: two 20 pound dumbbells
 - Face pull: 13.75kg
 - Straight arm dumbbell lift: 10 pound dumbbell  at each side
 
@@ -32,9 +32,21 @@ Back:
 Biceps:
 - Elbow Flexion: 40 pound bar
 
-### Nutrition
+Triceps:
+- Cable Press: 21.25kg
+
+Chest:
+- Bench Press: two 25 pound plates
+- Incline Press： two 25 pound plates
+- Seated Chest Press: 100 pound
+
+Abs:
+- Reverse Crunch: body weight
+- Plank
+- Bicycle in the air
+
+### Nutrition target
 - carbohydrate:35%
 - protein: 40%
 - fat: 25%
 
-> 增重的话，不是吃和睡才是最主要的吗？训练只是为了更好的吸收。肉不是在训练的时候生长，肉是在休息的时候生长，高质量休息。
