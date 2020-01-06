@@ -4,6 +4,6 @@
 - being stick on 5 meals a day & improving sleep quality
 - Apple Watch Counter App for 90 project
 
-**亲友折扣** 剩余量<br>
+**EPP** left<br>
 `iPad   9`<br>
 `iPhone 8`<br>
