@@ -6,4 +6,4 @@
 
 ---
 **EPP** left<br>
-`iPad:9 iPhone:8`
+`iPad:9 iPhone:7`
