@@ -5,4 +5,4 @@
 - Wide Grip Lat Pulldown [video](https://www.youtube.com/watch?v=emt_UCTCUO4&t=1s)
 
 ---
-EPP left: iPad:9 iPhone:7
+**EPP left** iPad:9 iPhone:7
