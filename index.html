@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0" />
-    // attempt #0 to solve page scale issue on mobile device
+    <meta name="viewport" content="initial-scale=1.0" />
+    // attempt #1 to solve page scale issue on mobile device
     <style type="text/css">
       body {
         writing-mode: vertical-rl;
         /* originally "-webkit-writing-mode: vertical-rl", which didn't work on Firefox. The update follows MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode */
+        /* height=device-height, width=device-width, */
        /*
        max-height: 300px;
         position: absolute;
