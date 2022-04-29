@@ -1,0 +1,85 @@
+{
+  "sample":
+  [
+    {
+      "description":"A young panda eating bamboo off of a birthday cake.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaBday.jpg"
+    },
+    {
+      "description":"A young panda clutching bamboo while their eyes bulge.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaBuggingOut.jpg"
+    },
+    {
+      "description":"A black and white photo of two pandas tenderly approaching each other.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaBW.jpg"
+    },
+    {
+      "description":"A closeup of a panda eating bamboo, with a contemplative look on their face.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaContemplating.jpg"
+    },
+    {
+      "description":"A panda contentedly leaning their head against bamboo.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaContent.jpg"
+    },
+    {
+      "description":"A panda excitedly pulling on a branch of bamboo, mouth agape.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaExcitedEating.jpg"
+    },
+    {
+      "description":"A hungry looking panda licking their lips.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaHungry.jpg"
+    },
+    {
+      "description":"A large adult panda staning on all fours inside a cave.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaInCave.jpg"
+    },
+    {
+      "description":"A panda leaning against a large branch, staring off into the distance.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaLeaning.jpg"
+    },
+    {
+      "description":"A panda with snow-covered fur, lying on their back in the snow with a slight grin.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaPosingInSnow.jpg"
+    },
+    {
+      "description":"A panda rolling in the snow, on its back with their legs spread in the air.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaRollingInSnow.jpg"
+    },
+    {
+      "description":"A stoic panda sitting on rocks looking off in the distance.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaSittingOnRocks.jpg"
+    },
+    {
+      "description":"A large adult panda sitting straight up with a sleepy look on their face.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaSittingPose.jpg"
+    },
+    {
+      "description":"A panda sniffing a shaft of bamboo.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaSniffingBamboo.jpg"
+    },
+    {
+      "description":"A panda walking on a log in the fall.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaWalkingFall.jpg"
+    },
+    {
+      "description":"A panda sitting in a pool of water, staring off introspectively.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaWater.jpg"
+    },
+    {
+      "description":"A zoned out panda distractedly eating bamboo.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaZonedOut.jpg"
+    },
+    {
+      "description":"A zoomed-in image of a panda eating bamboo.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaZoomEating.jpg"
+    },
+    {
+      "description":"A close-up portrait of a panda staring straight ahead.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/pandaZoomPortrait.jpg"
+    },
+    {
+      "description":"😄 A close-up image of young panda walking while staring straight ahead.",
+      "imageUrl":"https://playgrounds-cdn.apple.com/assets/pandas/youngPandaWalking.jpg"
+    }
+  ]
+}
