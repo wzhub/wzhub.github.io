@@ -1,0 +1,23 @@
+{
+  "story":
+  [
+    {
+      "pageIndex":"0",
+      "Text":"Use TP1975: Visual/Mechanical Inspection (VMI) Guide for iPad to identify conditions that affect warranty and service eligibility. Is the device in warranty and eligible for warranty service?",
+      "choiceYesDestination":"2",
+      "choiceNoDestination":"1"
+    },
+    {
+      "pageIndex":"1",
+      "Text":"Determine whether the device is eligible for out-of-warranty service or is ineligible for service. Is the device eligible for out-of-warranty service?",
+      "choiceYesDestination":"2",
+      "choiceNoDestination":"2"
+    },
+    {
+      "pageIndex":"2",
+      "Text":"Check the following articles to verify that the user’s accessory is compatible with the user’s iPad model: TP861: Accessories for iPad models with Lightning Connector TP1724: Accessories for iPad models with USB-C Connector TP1414: Apple Pencil and Smart Keyboards TP1583: iPad Pro Smart Cover and Smart Folio HT211091: Set up and use Magic Keyboard for iPad HT204158: Use the Smart Folio or Smart Cover with your iPad HT209186: Charge and connect with the USB-C port on your iPad If the user has a third-party accessory, verify that the accessory is \"Made for iPad.\" If so, answer \"Yes\" to the question below. If you cannot verify this, answer \"No\" to the question below. Is the user’s accessory compatible with the user’s iPad?"，
+      "choiceYesDestination":"0"，
+      "choiceNoDestination":"0"
+    }
+  ]
+}
