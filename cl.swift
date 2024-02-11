@@ -11,7 +11,7 @@ struct cl: ParsableCommand {
    if character=="\n"{
     switch temporaryString{
      case let x where x.hasPrefix("[x]"):doneList.append(temporaryString)
-     case let x where x.hasPrefix("[x]"):somedayList.append(temporaryString)
+     case let x where x.hasPrefix("[?]"):somedayList.append(temporaryString)
      default:todoDictionary[temporaryString]="[ ]"
     }
     temporaryString=""
