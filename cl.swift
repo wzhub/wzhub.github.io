@@ -18,7 +18,7 @@ struct cl: ParsableCommand {
    }else{temporaryString.append(character)}
   }
   for item in (somedayList+doneList){print(item)}
-  print("todo")
+  print("todo:")
   for (key,value) in todoDictionary{
    if !key.isEmpty{print(value,key)}
   }
