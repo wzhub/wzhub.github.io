@@ -12,7 +12,7 @@ struct cl: ParsableCommand {
     switch temporaryString{
      case let x where x.hasPrefix("[x]"):doneList.append(temporaryString)
      case let x where x.hasPrefix("[?]"):somedayList.append(temporaryString)
-     default:todoDictionary[temporaryString]="[ ]"
+     default:if !temporaryString.isEmpty{todoDictionary[temporaryString]="[ ]"}
     }
     temporaryString=""
    }else{temporaryString.append(character)}
