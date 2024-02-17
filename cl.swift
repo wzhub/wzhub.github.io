@@ -1,26 +1,26 @@
 import ArgumentParser
 @main
-struct cl: ParsableCommand {
+struct td: ParsableCommand {
  @Argument var userInput:String
  mutating func run() throws {
   var todoDictionary:[String:String]=[:]
-  var doneList:[String]=["done:"]
-  var somedayList:[String]=["someday:"]
+  var somedayList=["以后："]
+  var doneList=["已完成："]
   var temporaryString=""
   for character in userInput{
    if character=="\n"{
     switch temporaryString{
      case let x where x.hasPrefix("[x]"):doneList.append(temporaryString)
      case let x where x.hasPrefix("[?]"):somedayList.append(temporaryString)
-     default:if !temporaryString.isEmpty{todoDictionary[temporaryString]="[ ]"}
+     default:todoDictionary[temporaryString]="[ ]"
     }
     temporaryString=""
    }else{temporaryString.append(character)}
   }
   for item in (somedayList+doneList){print(item)}
-  print("todo:")
+  print("待办：")
   for (key,value) in todoDictionary{
-   if !key.isEmpty{print(value,key)}
+   print(value,key)
   }
  }
 }
