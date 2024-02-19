@@ -1,27 +1,32 @@
 import ArgumentParser
 @main
 struct td: ParsableCommand {
-@Argument var userInput:String
+ @Argument var userInput:String
+//用户输入待办事项列表，已完成的条目用“[x]”标记，以后再做的事用“[?]”标记，当日待办事项不做标记
  mutating func run() throws {
+  userInput+="\n"
+//程序执行的时候以换行符作为一个标志，用户的输入通常最后一行不带有换行标志，这里加入一个以确保最后一行不会被错过
   var temporaryString=""
-  var somedayList=["未来某天："]
-  var doneList=["已完成："]
-  var todoList=["待办："]
+  var todoList=[""]
+  var todoProgress=""
+  var otherProgress=""
   for character in userInput{
    if character=="\n"{
-    switch temporaryString{
-     case let x where x.hasPrefix("[?]"):somedayList.append(temporaryString)
-     case let x where x.hasPrefix("[x]"):doneList.append(temporaryString)
-     default:todoList.append("[ ] "+temporaryString)
-    }
+    if !temporaryString.hasPrefix("[x]") && !temporaryString.hasPrefix("[?]") && !temporaryString.isEmpty{
+     todoList.append(temporaryString)
+     todoProgress+="☐"
+    }else{otherProgress+="◼︎"}
     temporaryString=""
-   }else{temporaryString.append(character)}
+   }else{
+    temporaryString.append(character)
+   }
   }
-  for item in (somedayList+doneList+todoList){print(item)}
+  print(otherProgress+todoProgress)
+//展示进度条
   if todoList.count>1{
    todoList.removeFirst()
-   print("下一件：")
-   if let nextRandom=todoList.randomElement(){print(nextRandom)}
+   if let randomTodoItem=todoList.randomElement(){print(randomTodoItem)}
+//随机展示一条待办事项
   }
  }
 }
