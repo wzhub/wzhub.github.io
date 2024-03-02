@@ -7,24 +7,26 @@ struct td: ParsableCommand {
   var temporaryString=""
   var todoList=[String]()
 //userInput一定会有内容，所以这个列表不会是空的
+  var doneProgress=""
   var todoProgress=""
-  var otherProgress=""
   userInput+="\n"
 //程序执行的时候以换行符作为一个标志，用户的输入通常最后一行不带有换行标志，这里加入一个以确保最后一行不会被错过
   for character in userInput{
    if character=="\n"{
     if !temporaryString.isEmpty{
-     switch !temporaryString.hasPrefix("[x]") && !temporaryString.hasPrefix("[?]"){
-      case true:
-       todoList.append(temporaryString)
-       todoProgress+="☐"
-      case false:otherProgress+="◼︎"
+     if !temporaryString.hasPrefix("[?]"){
+      switch temporaryString.hasPrefix("[x]"){
+       case true:doneProgress+="◼︎"
+       case false:
+        todoList.append(temporaryString)
+        todoProgress+="☐"
+      }
      }
-     temporaryString="" 
-    } 
+     temporaryString=""
+    }
    }else{temporaryString.append(character)}
   }
-  let progressbar=otherProgress+todoProgress
+  let progressbar=doneProgress+todoProgress
   if progressbar.count>2{print(progressbar)}
 //如果有超过两个条目，展示进度条。否则只有一个或两个小方块，非常像乱码
   if let randomTodo=todoList.randomElement(){print(randomTodo)}
